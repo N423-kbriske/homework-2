@@ -3,7 +3,6 @@ import * as MODEL from "./model.js";
 function initListeners() {
   // when the retrieve weather button is clicked, this triggers an event that sets the location equal to the value of the input in getWeatherInput
   $("#getWeatherBtn").click((e) => {
-    // const location = $("#getLocation").val();
     const cityLocation = $("#getCityLocation").val();
     const zipLocation = $("#getZipLocation").val();
     const days = $("getDays").val();

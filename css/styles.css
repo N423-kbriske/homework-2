@@ -21,6 +21,38 @@
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
+  flex-direction: column;
+}
+#app .form #buttonContain {
+  margin-top: 5px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#app .form #buttonContain #login {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  color: white;
+  width: 230px;
+  padding: 3.5px 4px 3.5px 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 9px;
+}
+#app .form #buttonContain #signup {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  color: white;
+  width: 230px;
+  padding: 3.5px 4px 3.5px 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 9px;
 }
 #app .form #inputContain {
   display: flex;
@@ -30,46 +62,29 @@
   margin: 0 auto;
 }
 #app .form #inputContain #getCityLocation {
-  margin-top: 20px;
+  margin-top: 10px;
   border: 1px solid gray;
   border-radius: 6px;
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
 #app .form #inputContain #getZipLocation {
-  margin-top: 20px;
+  margin-top: 10px;
   border: 1px solid gray;
   border-radius: 6px;
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
 #app .form #getWeatherBtn {
-  margin-top: 20px;
-  border: 0.25px solid rgb(195, 195, 195);
-  border-radius: 6px;
-  background-color: white;
-  padding: 7px 10px 7px 10px;
+  margin-top: 10px;
+  border: none;
+  padding: 10px 10px 10px 10px;
   font-family: Arial, Helvetica, sans-serif;
-}
-#app #buttonContain {
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-#app #buttonContain #login {
-  border: 0.25px solid rgb(195, 195, 195);
-  border-radius: 6px;
-  background-color: white;
-  padding: 3.5px 5px 3.5px 5px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-#app #buttonContain #signup {
-  border: 0.25px solid rgb(195, 195, 195);
-  border-radius: 6px;
-  background-color: white;
-  padding: 3.5px 5px 3.5px 5px;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  color: white;
 }
 #app #currentContainer {
   display: flex;
@@ -78,7 +93,7 @@
   justify-content: space-evenly;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 #app #currentContainer #infoContainer #locationInfo {
   border-bottom: 1px solid white;
