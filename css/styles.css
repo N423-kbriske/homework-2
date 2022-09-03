@@ -1,0 +1,181 @@
+#app {
+  max-width: 100%;
+  height: 720px;
+  background: linear-gradient(to right, #586ba4, #324376, #f76c5e);
+  background-size: 400% 400%;
+  animation: animate-background 10s infinite ease-in-out;
+}
+@keyframes animate-background {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+#app .form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+#app .form #inputContain {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 500px;
+  margin: 0 auto;
+}
+#app .form #inputContain #getCityLocation {
+  margin-top: 20px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#app .form #inputContain #getZipLocation {
+  margin-top: 20px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#app .form #getWeatherBtn {
+  margin-top: 20px;
+  border: 0.25px solid rgb(195, 195, 195);
+  border-radius: 6px;
+  background-color: white;
+  padding: 7px 10px 7px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#app #buttonContain {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#app #buttonContain #login {
+  border: 0.25px solid rgb(195, 195, 195);
+  border-radius: 6px;
+  background-color: white;
+  padding: 3.5px 5px 3.5px 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#app #buttonContain #signup {
+  border: 0.25px solid rgb(195, 195, 195);
+  border-radius: 6px;
+  background-color: white;
+  padding: 3.5px 5px 3.5px 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#app #currentContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 30px;
+}
+#app #currentContainer #infoContainer #locationInfo {
+  border-bottom: 1px solid white;
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+#app #currentContainer #infoContainer #locationInfo #name {
+  color: white;
+}
+#app #currentContainer #infoContainer #locationInfo #country {
+  font-size: 38px;
+  color: white;
+}
+#app #currentContainer #infoContainer #locationInfo #time {
+  margin: 10px 0px 10px 0px;
+  font-size: 15px;
+  color: white;
+}
+#app #currentContainer #infoContainer #conditionInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#app #currentContainer #infoContainer #conditionInfo #conditionText {
+  margin-left: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+#app #currentContainer #infoContainer #tempInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 575px;
+  margin: 10px auto 10px auto;
+  text-align: left;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+#app #currentContainer #infoContainer #extraInfo {
+  width: 725px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: left;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-bottom: 40px;
+}
+#app #currentContainer #forecastHeader {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(201, 201, 201);
+}
+#app #currentContainer #fcContain {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+#app #currentContainer #fcContain #forecastContainer {
+  min-width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(201, 201, 201);
+  padding: 10px;
+}
+#app #currentContainer #fcContain #forecastContainer #forecastDate {
+  font-size: 21px;
+}
+#app #currentContainer #fcContain #forecastContainer #fcConditionContain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#app #currentContainer #fcContain #forecastContainer #fcConditionContain #forecastCondition {
+  margin-left: 5px;
+}
+#app #currentContainer #fcContain #forecastContainer #forecastLow {
+  text-align: left;
+}
+#app #currentContainer #fcContain #forecastContainer #forecastHigh {
+  text-align: left;
+}
+#app #currentContainer #fcContain #forecastContainer #rainChance {
+  text-align: left;
+}
+
+/*# sourceMappingURL=styles.css.map */
