@@ -22,7 +22,7 @@ function getCurrentWeather(location) {
   querycnt += 1;
   // retrieves JSON from the API with the correct credentials once they are entered (forecast which includes current)
   $.getJSON(
-    `${baseURL}forecast.json?key=${key}&q=${location}&days=4&aqi=no&alerts=no`,
+    `${baseURL}forecast.json?key=${key}&q=${location}&days=3&aqi=no&alerts=no`,
     (data) => {
       const location = data.location;
       const currentContainer = document.getElementById("currentContainer");
