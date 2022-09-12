@@ -1,4 +1,4 @@
-var key = "63eb716b0ff14709b9a202302222908";
+var key = "53599ec288054906a0a203018222908";
 var baseURL = "http://api.weatherapi.com/v1/";
 
 function getName(name) {
@@ -100,20 +100,6 @@ function getCurrentWeather(location) {
       <div id="fcUv">UV Index: ${forecast.forecastday[2].day.uv}</div>
       <div id="fcHumidity">Sunrise: ${forecast.forecastday[2].astro.sunrise}</div>
       <div id="fcHumidity">Sunset: ${forecast.forecastday[2].astro.sunset}</div>
-      </div>
-
-      <div id="forecastContainer">
-      <div id="forecastDate">${forecast.forecastday[3].date}</div>
-      <div id="fcConditionContain">
-      <img id="forecastConditionImg "src="${forecast.forecastday[3].day.condition.icon}" alt="">
-      <div id="forecastCondition">${forecast.forecastday[3].day.condition.text}</div>
-      </div>
-      <div id="forecastLow">Low: ${forecast.forecastday[3].day.mintemp_f}</div>
-      <div id="forecastHigh">High: ${forecast.forecastday[3].day.maxtemp_f}</div>
-      <div id="rainChance">Chance of rain: ${forecast.forecastday[3].day.daily_chance_of_rain}%</div>
-      <div id="fcUv">UV Index: ${forecast.forecastday[3].day.uv}</div>
-      <div id="fcHumidity">Sunrise: ${forecast.forecastday[3].astro.sunrise}</div>
-      <div id="fcHumidity">Sunset: ${forecast.forecastday[3].astro.sunset}</div>
       </div>
       </div>`;
 
