@@ -1,5 +1,5 @@
 var key = "53599ec288054906a0a203018222908";
-var baseURL = "http://api.weatherapi.com/v1/";
+var baseURL = "https://api.weatherapi.com/v1/";
 
 function getName(name) {
   console.log(utility(name));
